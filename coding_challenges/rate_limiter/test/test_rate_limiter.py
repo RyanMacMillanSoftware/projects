@@ -5,7 +5,8 @@ import pytest
 import time
 import uuid
 
-from rate_limiter.src.rate_limiter import TokenBucketRateLimiter
+from coding_challenges.rate_limiter.src.rate_limiter import TokenBucketRateLimiter
+
 
 test_data = [
         (1, 1, True), 
