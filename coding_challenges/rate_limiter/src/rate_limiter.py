@@ -3,6 +3,8 @@ Whenever you expose a web service / api endpoint, you need to implement a rate l
 
 
 Implement a RateLimiter Class with an isAllow method. Every request comes in with a unique clientID, deny a request if that client has made more than 100 requests in the past second.
+
+Source: https://leetcode.com/discuss/interview-question/system-design/124558/Uber-or-Rate-Limiter
 '''
 
 import time
@@ -46,6 +48,7 @@ class TokenBucketRateLimiter():
         # Add tokens to bucket for elapsed time
         seconds_elapsed = now - last_event_time
         tokens += int(seconds_elapsed * self.rps)
+        tokens = min(tokens, self.rps) # never allow them to exceed the number of tokens they can use in one second
         
         # Check token in bucket
         if not tokens:

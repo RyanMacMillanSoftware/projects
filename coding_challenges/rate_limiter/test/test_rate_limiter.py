@@ -1,5 +1,5 @@
 '''
-Test suite for interview.py
+Test suite for rate_limiter.py
 '''
 import pytest
 import time
