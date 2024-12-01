@@ -3,4 +3,4 @@
 .pytest_cache
 
 # Private interview question not to be published online 
-data_structures_algorithms/string_interpolation/  
+*string_interpolation/  
