@@ -1,7 +1,7 @@
 from typing import List
 import pytest
 
-from data_structures_algorithms.src.leetcode_2257_count_unguarded_cells_in_grid import solution
+from data_structures_algorithms.python_solutions.src.leetcode_2257_count_unguarded_cells_in_grid import solution
 
 test_data = [
     (4, 6, [[0,0],[1,1],[2,3]], [[0,1],[2,2],[1,4]], 7),

@@ -1,6 +1,6 @@
 import pytest
 from typing import List
-from data_structures_algorithms.src.leetcode_2290_minimum_obstacle_removal import solution
+from data_structures_algorithms.python_solutions.src.leetcode_2290_minimum_obstacle_removal import solution
 
 
 test_data = [

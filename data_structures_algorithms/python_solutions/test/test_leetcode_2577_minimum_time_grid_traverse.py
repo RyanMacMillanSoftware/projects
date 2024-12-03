@@ -1,6 +1,6 @@
 import pytest
 from typing import List
-from data_structures_algorithms.src.leetcode_2577_minimum_time_grid_traverse import solution
+from data_structures_algorithms.python_solutions.src.leetcode_2577_minimum_time_grid_traverse import solution
 
 
 test_data = [
